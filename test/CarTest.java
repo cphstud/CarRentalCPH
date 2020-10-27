@@ -20,15 +20,17 @@ import static org.junit.Assert.*;
 
 public class CarTest {
     Invoice invoice;
+    Taxes taxes;
     Car car;
     @Before
     public void setup(){
         invoice = new Invoice("$30,366");
-        car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
+        //car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
+        car = new Car(taxes,11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
     }
     @Test
     public void createCarWithAttr() {
-        Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
+        Car car = new Car(taxes, 11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
         //Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual","$30,366",17,26);
         //Car car = null;
         assertNotNull(car);

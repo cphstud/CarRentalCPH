@@ -8,7 +8,7 @@ public class Car {
     private double MPG_City;
     private double MPG_Highway;
 
-    public Car(int id, String make, String model, Invoice invoice, double MPG_City, double MPG_Highway) {
+    public Car(Taxes taxes, int id, String make, String model, Invoice invoice, double MPG_City, double MPG_Highway) {
         this.id = id;
         this.make = make;
         this.model = model;
