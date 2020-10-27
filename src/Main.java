@@ -29,10 +29,12 @@ public class Main {
     public Car findBil() {
         int choice=0;
         int exitvalue = 9;
+        Car tmpCar = null;
 
         while (choice != exitvalue) {
 
         }
+        return tmpCar;
     }
 
     public void printMainMenu() {
