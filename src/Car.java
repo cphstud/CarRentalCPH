@@ -16,4 +16,11 @@ public class Car {
         this.MPG_City = MPG_City;
         this.MPG_Highway = MPG_Highway;
     }
+
+
+    public double computeEnvTaxes() {
+        double retVal = 0.0;
+
+        return retVal;
+    }
 }

@@ -4,7 +4,9 @@ import org.junit.Test;
 //11;Audi;A4 3.0 Quattro 4dr manual;Sedan;Europe;All;$33,430;$30,366;3;6;220;17;26;3583;104;179
 //  case "benzin": tmpInt = new int[]{10470, 5500, 2340, 1050, 330};
 //  case "diesel": tmpInt = new int[]{25730, 8270, 4190, 2440, 460};
+// diesel hasFilter?
 //  case "benzin": return toList(new int[]{0, 5, 10, 15, 20});
+// case elbil: convert from KWprH til KmP/L
 
 
 //Userstory: Som PO vil jeg gerne kunne se en beregning af enhedsprisen for en given bil baseret på
@@ -12,6 +14,7 @@ import org.junit.Test;
 // task1: lav en bil med de rette attributter
 // task2: lav en miljøberegner som kan injiceres i bilen
 // task2.1: find miljødata
+// task2.2: opret en miljøklasse med miljødata
 
 import static org.junit.Assert.*;
 
