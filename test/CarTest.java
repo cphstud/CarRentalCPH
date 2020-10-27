@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 public class CarTest {
     @Test
     public void createCarWithAttr() {
-        //Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual","Invoice","MPG_City","MPG_Highway");
+        //Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual","$30,366",17,26);
         Car car = null;
         assertNotNull(car);
     }
