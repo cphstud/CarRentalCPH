@@ -1,6 +1,8 @@
+import domain.Car;
+import domain.CarRepository;
+import domain.NoSuchCarException;
+import infrastructure.CarDatabaseMock;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class CarDatabaseMockTest {
     Car car;

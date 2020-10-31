@@ -1,3 +1,5 @@
+package domain;
+
 public class MPG {
     int MPG_City;
     int MPG_Highway;

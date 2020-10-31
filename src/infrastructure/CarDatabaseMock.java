@@ -1,7 +1,11 @@
+package infrastructure;
+
+import domain.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class CarDatabaseMock implements CarRepository{
+public class CarDatabaseMock implements CarRepository {
     private List<Car> cars = null;
 
     public CarDatabaseMock() {
@@ -24,7 +28,7 @@ public class CarDatabaseMock implements CarRepository{
     }
 
     @Override
-    public List<Car> findAllCars() throws NoSuchCarException{
+    public List<Car> findAllCars() throws NoSuchCarException {
         return cars;
     }
 
