@@ -1,4 +1,4 @@
-Obs;Make;Model;Type;Origin;DriveTrain;MSRP;Invoice;EngineSize;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Length
+Obs;Make;Model;Type;Origin;DriveTrain;MSRP;domain.Invoice;EngineSize;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Length
 1;Acura;MDX;SUV;Asia;All;$36,945;$33,337;3.5;6;265;17;23;4451;106;189
 2;Acura;RSX Type S 2dr;Sedan;Asia;Front;$23,820;$21,761;2;4;200;24;31;2778;101;172
 3;Acura;TSX 4dr;Sedan;Asia;Front;$26,990;$24,647;2.4;4;200;22;29;3230;105;183
@@ -234,9 +234,9 @@ Obs;Make;Model;Type;Origin;DriveTrain;MSRP;Invoice;EngineSize;Cylinders;Horsepow
 233;Lincoln;LS V6 Premium 4dr;Sedan;USA;Rear;$36,895;$33,929;3;6;232;20;26;3681;115;194
 234;Lincoln;LS V8 Sport 4dr;Sedan;USA;Rear;$40,095;$36,809;3.9;8;280;17;24;3768;115;194
 235;Lincoln;LS V8 Ultimate 4dr;Sedan;USA;Rear;$43,495;$39,869;3.9;8;280;17;24;3768;115;194
-236;Lincoln;Town Car Signature 4dr;Sedan;USA;Rear;$41,815;$38,418;4.6;8;239;17;25;4369;118;215
-237;Lincoln;Town Car Ultimate 4dr;Sedan;USA;Rear;$44,925;$41,217;4.6;8;239;17;25;4369;118;215
-238;Lincoln;Town Car Ultimate L 4dr;Sedan;USA;Rear;$50,470;$46,208;4.6;8;239;17;25;4474;124;221
+236;Lincoln;Town domain.Car Signature 4dr;Sedan;USA;Rear;$41,815;$38,418;4.6;8;239;17;25;4369;118;215
+237;Lincoln;Town domain.Car Ultimate 4dr;Sedan;USA;Rear;$44,925;$41,217;4.6;8;239;17;25;4369;118;215
+238;Lincoln;Town domain.Car Ultimate L 4dr;Sedan;USA;Rear;$50,470;$46,208;4.6;8;239;17;25;4474;124;221
 239;MINI;Cooper;Sedan;Europe;Front;$16,999;$15,437;1.6;4;115;28;37;2524;97;143
 240;MINI;Cooper S;Sedan;Europe;Front;$19,999;$18,137;1.6;4;163;25;34;2678;97;144
 241;Mazda;Tribute DX 2.0;SUV;Asia;All;$21,087;$19,742;2;4;130;22;25;3091;103;173

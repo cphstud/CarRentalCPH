@@ -1,7 +1,9 @@
+package domain;
+
 public class Invoice {
     String invoiceStr;
 
-    Invoice(String invoiceStr) {
+    public Invoice(String invoiceStr) {
         this.invoiceStr = invoiceStr;
     }
 

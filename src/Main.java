@@ -1,3 +1,5 @@
+import domain.Car;
+
 import java.util.Scanner;
 
 public class Main {

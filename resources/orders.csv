@@ -1,0 +1,2 @@
+id,ordertime,customerid,[orderitems],pickuplocation,picupdate, dropdate, paid,totalprice
+1,2020-09-12 14:00:02,32897812,[12,4],Kastrup, 2020-09-21, 2020-09-24,false,1234.50

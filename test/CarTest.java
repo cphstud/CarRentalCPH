@@ -1,6 +1,8 @@
+import domain.Car;
+import domain.Invoice;
 import org.junit.Before;
 import org.junit.Test;
-//Data: Obs;Make;Model;Type;Origin;DriveTrain;MSRP;Invoice;EngineSize;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Length
+//Data: Obs;Make;Model;Type;Origin;DriveTrain;MSRP;domain.Invoice;EngineSize;Cylinders;Horsepower;MPG_City;MPG_Highway;Weight;Wheelbase;Length
 //11;Audi;A4 3.0 Quattro 4dr manual;Sedan;Europe;All;$33,430;$30,366;3;6;220;17;26;3583;104;179
 //  case "benzin": tmpInt = new int[]{10470, 5500, 2340, 1050, 330};
 //  case "diesel": tmpInt = new int[]{25730, 8270, 4190, 2440, 460};
@@ -29,8 +31,8 @@ public class CarTest {
     @Test
     public void createCarWithAttr() {
         Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual",invoice,17,26);
-        //Car car = new Car(11,"Audi","A4 3.0 Quattro 4dr manual","$30,366",17,26);
-        //Car car = null;
+        //domain.Car car = new domain.Car(11,"Audi","A4 3.0 Quattro 4dr manual","$30,366",17,26);
+        //domain.Car car = null;
         assertNotNull(car);
     }
 
