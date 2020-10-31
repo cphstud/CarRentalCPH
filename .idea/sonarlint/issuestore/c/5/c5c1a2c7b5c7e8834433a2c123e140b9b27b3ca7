@@ -1,0 +1,15 @@
+
+E
+java:S1068"*Remove this unused "filter" private field.(®œÎÿùÿÿÿÿ
+E
+java:S1068"*Remove this unused "limits" private field.(Ïëÿ˜øÿÿÿÿ
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+C
+java:S1068"(Remove this unused "type" private field.(–î†ûÿÿÿÿ
+A
+java:S1168"+Return an empty collection instead of null.(¥¹ï
+@
+java:S1068"*Remove this unused "prices" private field.(ªÀ‚„
+0
+java:S1220""Move this file to a named package.

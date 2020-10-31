@@ -10,7 +10,7 @@ public class InvoiceTest {
         String input = "$30,366";
         Invoice invoice = new Invoice(input);
         int expected = 30366;
-        int actual = invoice.getPrice();
+        int actual = invoice.getInvoiceNumber();
         assertEquals(expected,actual);
     }
 

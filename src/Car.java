@@ -23,10 +23,9 @@ public class Car {
 
 
     public double computeEnvTaxes() {
-        double retVal = 0.0;
         List<Integer> limits = tax.getLimits();
         List<Integer> prices = tax.getPrices();
-        int retValTax = prices.get(0);
+        double retValTax = prices.get(0);
         for(int i=0;i<limits.size();i++) {
             if (limits.get(i) < MPG_City && MPG_City < limits.get(i+1)) {
                 retValTax = prices.get(i+1);
@@ -35,4 +34,14 @@ public class Car {
         return retValTax;
     }
 
+    @Override
+    public String toString() {
+        return "Car{" +
+                "id=" + id +
+                ", make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", MPG_City=" + MPG_City +
+                ", MPG_Highway=" + MPG_Highway +
+                '}';
+    }
 }
